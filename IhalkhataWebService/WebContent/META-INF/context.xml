@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context reloadable="true">
+	<Environment name="jdbc/dbusername" value="ihalkhat_user"
+		type="java.lang.String" />
+	<Environment name="jdbc/dbpasswd" value="expcalc135" type="java.lang.String" />
+	<Environment name="jdbc/dbname" value="ihalkhat_expdb"
+		type="java.lang.String" />
+	<Resource name="jdbc/calbook" auth="Container" type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/ihalkhat_expdb"
+		username="ihalkhat_user" password="expcalc135" />
+</Context>
